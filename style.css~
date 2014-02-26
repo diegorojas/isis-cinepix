@@ -1409,7 +1409,6 @@ overflow: hidden;
 	padding: 5px 10px;
 	width: 420px;
 	color: #FFFFFF;
-	font-family:'Raleway';
 }
 /*Footer Menu*/
 #footmenu {
