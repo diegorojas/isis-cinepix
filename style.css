@@ -1,10 +1,9 @@
 /*
-/*
-Theme Name: isis
-Theme URI: http://www.imonthemes.com/?p=124
+Theme Name: CinePix - Isis
+Theme URI: http://www.cinepix.com.br
 Author: Imonthemes
 Author URI: http://www.imonthemes.com
-License: GNU General Public License, v3
+License: GNU General Public License, v2
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Description: Isis is a Simple, Clean and Responsive Retina Ready WordPress Theme which adapts automatically to your tablets and mobile devices. theme with 2 home page layouts,2 header style,10 social icons,4 widget ,Slider,3 page templates – Full width page, 4 google fonts, font-awesome service icon,Upload logo option,The theme is translation ready and fully translated into all language. Isis is suitable for any types of website – corporate, portfolio, business, blog.
@@ -14,8 +13,7 @@ Version: 0.8
 
 Tags: fixed-layout,fluid-layout,theme-options, one-column, dark, green, white, right-sidebar, left-sidebar, custom-background, theme-options, translation-ready, translation-ready, featured-images, full-width-template,sticky-post, post-formats
 
-isis WordPress Theme, Copyright 2013 WordPress.org
-isis is distributed under the terms of the GNU GPL
+Isis is distributed under the terms of the GNU GPL
 */
 
 
@@ -59,7 +57,7 @@ p {
 	padding-bottom: 20px;
 	position: relative;
 	background-position: bottom;
-    background: linear-gradient(to bottom, #3d1040 0%, #5c1b60 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url('images/bg-couro-azul.jpg') no-repeat center top transparent;
 }
 
 #branding2 {
@@ -233,6 +231,14 @@ text-align:center;
 	border-left-width: 1px;
 	border-left-style: solid;
 	border-left-color: #CCC;
+	
+}
+
+.linha-cromada {
+    background: url('images/linha-cromada.png') no-repeat center top transparent;
+	width: 600px;
+	height: 32px;
+	display: block;
 	
 }
 
@@ -466,7 +472,7 @@ box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
 	position: relative;
 	padding: 20px 20px 10px;
 	margin-bottom: 20px;
-	
+	font-family: 'Raleway';	
 }
 
 
@@ -1399,7 +1405,7 @@ overflow: hidden;
 	width: 100%;
 	padding: 15px;
 	float: left;
-	background-color: rgb(39, 39, 39);
+    background: url('images/bg-couro-azul.jpg') no-repeat center top transparent;
 }
 #copyright a {
 	color: #ccc;
